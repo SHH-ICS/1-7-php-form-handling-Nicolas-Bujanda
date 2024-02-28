@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+GNU nano 5.4                                           handler.php                                                    <!DOCTYPE html>
 <html>
   <head>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -8,7 +8,7 @@
   </head>
 
   <body>
-    
+
     <?php
     $userName = "";
     if ( isset( $_POST['userName'] ) ){
@@ -16,7 +16,7 @@
     }
     echo "<h1>Welcome ".$userName."!</h1>\n";
     ?>
-    
+
   </body>
-  
+
 </html>
